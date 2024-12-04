@@ -6,7 +6,8 @@ On se basera notamment sur ces [travaux](https://www.maths.tcd.ie/%7Elebed/Galpe
 
 Pour illustration, voici une capture d'écran de simulation $juste avant la dernière collision, avec les paramètres $\frac{m_1}{m_2}=100$ et $v_1=-2 pixels par frame.
 
-![Diagramme explicatif](images/finale.png)
+![fenêtre](images/fenetre.png)
+
 *Figure 1: Diagramme explicatif du flux de travail.*
 
 ## Formules pour simuler les collisions
@@ -17,6 +18,10 @@ Le système se présente comme suit :
 - Un mur;
 - Un sol;
 - Un compteur de collision.
+
+![système](images/sys.png)
+
+*Figure 2: Schéma du système [1](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG).*
 
 Sous couvert des hypothèses suivantes:
 
@@ -64,6 +69,10 @@ On peut alors observer que les arcs de cercles entre chaque points sont de même
 
 - Pour chaque points $P_1$, $P_2$ et $P_3$ tels que $P_3$ n'appartient pas à l'arc délimité par $P_1$ et $P_2$, l'angle $\theta$ formé est le même (il s'agit à chaque fois de l'angle entre la verticale et une droite de pente $-\sqrt{\frac{m_1}{m_2}}$);
 - D'après le théorème de l'angle inscrit, $P_3$ étant situé en dehors de l'arc délimité par $P_1$ et $P_2$, l'angle formé par $P_1$, $P_2$ et $O$ (le centre du cercle) est égal à $2θ$. Donc la longueur de de l'arc délimité par $P_1$ et $P_2$ est $2θr$ (avec r le rayon du cercle $r = \sqrt{m_1v_1^2}$), et ce à chaque fois.
+
+![points](images/phase.png)
+
+*Figure 3: Schématisation des points.*
 
 Le nombre de collisions est alors le nombre maximal d'arcs de cercles de même longueur que l'on a sur ce diagramme de phase. Donc en notant $C \in \mathbb{N}^*$ le nombre de collisions, on peut écrire: $$C.2.\theta.r \leq 2.\pi.r$$
 
@@ -115,3 +124,10 @@ C = \lfloor 100^n.\pi \rfloor
 $$
 
 Ce qui achève la démonstration.
+
+
+## Références
+
+[1]: La réponse la plus inattendue à un casse-tête de comptage. 3Blue1Brown.
+
+[2]: G. Galperin. Playing Pool with $\pi$ (The Number $\pi$ from a Billiard Point of View). 2003.
