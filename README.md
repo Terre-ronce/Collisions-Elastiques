@@ -2,7 +2,12 @@
 
 Ce projet consiste à reproduire la simulation de cette [vidéo](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG) et à démontrer le résultat sur le nombre de collisions.
 
-On se basera sur ces [travaux](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf) de G. Galepin.
+On se basera notamment sur ces [travaux](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf) de G. Galepin.
+
+Pour illustration, voici une capture d'écran de simulation $juste avant la dernière collision, avec les paramètres $\frac{m_1}{m_2}=100$ et $v_1=-2 pixels par frame.
+
+![Diagramme explicatif](images/finale.png)
+*Figure 1: Diagramme explicatif du flux de travail.*
 
 ## Formules pour simuler les collisions
 
