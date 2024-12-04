@@ -70,7 +70,9 @@ On peut alors observer que les arcs de cercles entre chaque points sont de même
 - Pour chaque points $P_1$, $P_2$ et $P_3$ tels que $P_3$ n'appartient pas à l'arc délimité par $P_1$ et $P_2$, l'angle $\theta$ formé est le même (il s'agit à chaque fois de l'angle entre la verticale et une droite de pente $-\sqrt{\frac{m_1}{m_2}}$);
 - D'après le théorème de l'angle inscrit, $P_3$ étant situé en dehors de l'arc délimité par $P_1$ et $P_2$, l'angle formé par $P_1$, $P_2$ et $O$ (le centre du cercle) est égal à $2θ$. Donc la longueur de de l'arc délimité par $P_1$ et $P_2$ est $2θr$ (avec r le rayon du cercle $r = \sqrt{m_1v_1^2}$), et ce à chaque fois.
 
-![points](images/phase.png)
+<p align="center">
+  <img src="images/phase.png" alt="points" />
+</p>
 
 *Figure 3: Schématisation des points.*
 
