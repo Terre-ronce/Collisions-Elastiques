@@ -1,8 +1,8 @@
 # Collisions Elastiques
 
-Ce projet consiste à reproduire la simulation de cette [vidéo](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG) et à démontrer le résultat sur le nombre de collisions.
+Ce projet consiste à reproduire la simulation de cette [vidéo [1]](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG) et à démontrer le résultat sur le nombre de collisions.
 
-On se basera notamment sur les traveaux de G. Galepin dans Playing Pool with $\pi$ [[2](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf)].
+On se basera notamment sur les traveaux de G. Galepin dans Playing Pool with $\pi$ [[2]](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf).
 
 Le résultat final de cette simulation pour les paramètres compris dans `main.py` se présente comme suit (vidéo accélérée):
 
@@ -19,9 +19,11 @@ Le système se présente comme suit :
 - Un sol;
 - Un compteur de collision.
 
-![système](images/sys.png)
+<p align="center">
+  <img src="images/sys.png" alt="points" />
+</p>
 
-*Figure 1: Schéma du système [[1](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG)].*
+*Figure 1: Schéma du système [[1]](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG).*
 
 Sous couvert des hypothèses suivantes:
 
