@@ -2,13 +2,13 @@
 
 Ce projet consiste à reproduire la simulation de cette [vidéo](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG) et à démontrer le résultat sur le nombre de collisions.
 
-On se basera notamment sur ces [travaux](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf) de G. Galepin.
+On se basera notamment sur les traveaux de G. Galepin dans Playing Pool with $\pi$ [[2](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf)].
 
-Pour illustration, voici une capture d'écran de simulation $juste avant la dernière collision, avec les paramètres $\frac{m_1}{m_2}=100$ et $v_1=-2 pixels par frame.
+Le résultat final de cette simulation pour les paramètres compris dans `main.py` se présente comme suit (vidéo accélérée):
 
-![fenêtre](images/fenetre.png)
-
-*Figure 1: Diagramme explicatif du flux de travail.*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05d496a0-6796-4423-a9fe-a3be5e7fd1d8" alt="animation" />
+</p>
 
 ## Formules pour simuler les collisions
 
@@ -21,7 +21,7 @@ Le système se présente comme suit :
 
 ![système](images/sys.png)
 
-*Figure 2: Schéma du système [1](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG).*
+*Figure 1: Schéma du système [[1](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG)].*
 
 Sous couvert des hypothèses suivantes:
 
@@ -74,7 +74,7 @@ On peut alors observer que les arcs de cercles entre chaque points sont de même
   <img src="images/phase.png" alt="points" />
 </p>
 
-*Figure 3: Schématisation des points.*
+*Figure 2: Schématisation des points.*
 
 Le nombre de collisions est alors le nombre maximal d'arcs de cercles de même longueur que l'on a sur ce diagramme de phase. Donc en notant $C \in \mathbb{N}^*$ le nombre de collisions, on peut écrire: $$C.2.\theta.r \leq 2.\pi.r$$
 
