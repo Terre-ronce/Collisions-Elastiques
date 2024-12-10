@@ -3,8 +3,14 @@
 Ce projet consiste à reproduire la simulation de cette [vidéo [1]](https://youtu.be/HEfHFsfGXjs?si=t0XWsMkiTgWax-KG) et à démontrer le résultat sur le nombre de collisions.
 
 On se basera notamment sur les traveaux de G. Galepin dans Playing Pool with $\pi$ [[2]](https://www.maths.tcd.ie/%7Elebed/Galperin.%20Playing%20pool%20with%20pi.pdf).
+### Exemple
+Pour les paramètre de simulation suivants:
 
-Le résultat final de cette simulation pour les paramètres compris dans `main.py` se présente comme suit (vidéo accélérée):
+- rapport $\frac{m_1}{m_2} = 100$ ;
+- $v_1 = -2 fps$ (vitesse initiale de $m_1$) ;
+- $v_2 = 0 fps$ (vitesse initiale de $m_2$)
+  
+La simulation donne (vidéo accélérée):
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/05d496a0-6796-4423-a9fe-a3be5e7fd1d8" alt="animation" />
